@@ -1,0 +1,15 @@
+
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": false,     
+    "module": "esnext", 
+    "outDir": "dist",
+    "target": "es5",
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": ["src/**/*"],
+}
